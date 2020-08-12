@@ -1,0 +1,316 @@
+		* {
+		  margin: 0;
+		  padding: 0;
+		  -webkit-box-sizing: border-box;
+		  -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+		}
+
+
+		body {
+			box-sizing: content-box;
+			margin: 0 auto;
+			background-image: url('descarga.png');
+			font-family: sans-serif;
+			font-size: 14px;
+		}
+
+		a, a:link, a:hover, a:visited{
+			text-decoration: none;
+			color: inherit;
+		}
+		
+		li {
+		    list-style: none;
+		}
+
+		.texto-titular {
+			color: white;
+			font-family: sans-serif;
+			font-size: 36px;
+			text-align: center;
+		}
+
+		.texto-botones-inicio {
+			color: white;
+			font-family: sans-serif;
+			font-size: 16px;
+			text-align: center;
+		}
+
+		.texto-sesion {
+		    font-size: 21px;
+		    text-align: center;
+		    font-weight: bold;
+		    height: 50px;
+		    background-color: #ED553B;
+		    padding-top: 13px;
+		}
+		
+
+		.caja-principal {
+			width: 70%;
+			margin: 0 auto;
+		}
+
+		.caja-header {
+			background-color: white;
+			height: 260px;
+		}
+
+		.caja-contenido {
+			background-color: white;
+		    padding-top: 5px;
+		    padding-bottom: 15px;
+		    width: 100%;
+    		margin: 0 auto;
+		}
+
+		.caja-footer {
+			background-color: #112F41;
+			height: 70px;
+			color: white;
+			text-align: center;
+			padding: 20px;
+		}
+
+		/***********************************ESTILOS HEADERRRR*****************************/
+		.caja-botones {
+			background-color: white;
+			height: 135px;
+		}
+
+		.h-col-1 {
+		    width: 12%;
+		    background-color: #4FB99F;
+		    height: 100px;
+		    margin: 22px 0px 0px 11px;
+		    float: left;
+		    padding-top: 40px;
+		    padding-bottom: 30px;
+		}
+
+		.h-col-1:hover {
+		    background-color: #F2B134;
+		}
+
+		.h-col-2 {
+		    width: 60%;
+		    background-color: #068587;
+		    height: 100px;
+		    margin: 22px 0px;
+		    float: left;
+		    padding: 30px;
+		}
+
+		.formulario {
+			width: 100%;
+		    background-color: #F2B134;
+		    height: 90px;
+		    display: inline-block;
+		    text-align: center;
+		    padding-top: 14px;
+		}
+
+		input[type="email"], input[type="password"] {
+		    	border-radius: 10px 10px 10px 10px;
+		    -moz-border-radius: 10px 10px 10px 10px;
+		    -webkit-border-radius: 5px;
+		    border: 1px solid #112F41;
+		    height: 30px;
+		    padding: 0.5em;
+		    width: 200px;
+		}
+
+		textarea {
+		    border-radius: 10px 10px 10px 10px;
+		    -moz-border-radius: 10px 10px 10px 10px;
+		    -webkit-border-radius: 5px;
+		    border: 1px solid #112F41;
+		    height: 150px;
+		    padding: 0.5em;
+		    width: 500px;
+		}
+
+		form {
+
+		    text-align: center;
+		}
+
+		input[type="submit"] {
+			border-radius: 10px 10px 10px 10px;
+		    -moz-border-radius: 10px 10px 10px 10px;
+		    -webkit-border-radius: 5px;
+		    border: 1px solid #112F41;
+		    height: 30px;
+		    background-color: #112F41;
+		    width: 100px;
+		    color: white;
+		    margin-left: 5px;
+			}
+
+		input[type="submit"]:hover {
+		    background-color: #ED553B;
+		    width: 100px;
+		    color: white;
+		    margin-left: 5px;
+		    cursor: pointer;
+			}
+		
+		label {
+		   margin-left: 30px;
+		}
+
+		form{
+			margin-top: 10px;
+		}
+
+		/***********************************ESTILOS CONTENIDO TEMAS*****************************/
+		.caja-contenido-temas {
+			    width: 90%;
+			    margin: 0 auto;
+    	}
+
+		.caja-ficha-tema {
+		    height: 120px;
+		    padding: 5px;
+		}
+
+
+		.temas-der {
+		    width: 60%;
+		    position: absolute;
+			padding: 5px;
+		}
+
+		.texto-temas {
+		    border-bottom: 1px solid #112F41;
+		    padding: 5px;
+		    width: 63%;
+		}
+
+		.texto-fuentes {
+			    font-size: 13px;
+			    color: gray;
+			}
+
+		.texto-tit-tema {
+			font-size: 16px;
+			font-weight: bold;
+			padding-left: 5px;
+
+
+		}
+
+		.botones-tema {
+		    width: 20%;
+		    float: right;
+		    margin-right: 6px;
+			position: relative;
+		}
+
+
+		.boton-nuevo {
+		    background-color: #112F41;
+		    padding-top: 17px;
+		    height: 50px;
+		    text-align: center;
+		    font-weight: bold;
+		    cursor: pointer;
+		    margin-top: 22px;
+		    color: white;
+		}
+
+
+		.boton-ver {
+		       
+		    background-color: #F2B134;
+		    text-align: center;
+		    font-weight: bold;
+		    font-size: 13px;
+		    padding: 9px;
+		}
+
+		.boton-modificar {
+		    background-color: #4FB99F;
+		    width: 15%;
+		    color: white;
+		    font-size: 11px;
+		    text-align: center;
+		    padding-top: 4px;
+		    font-weight: bold;
+		    margin-bottom: 30px;
+		    margin-left: 15px;
+
+		}
+
+		.boton-eliminar {
+		    background-color: #ED553B;
+		    width: 10%;
+		    color: white;
+		    text-align: center;
+		    padding-top: 2px;
+		    margin-bottom: 30px;
+		    font-size: 14px;
+
+		}
+
+		.boton-ver:hover {
+			background-color: #4FB99F;
+		}
+
+
+		.boton-nuevo:hover {
+		    background-color: #ED553B;
+		    color: white;
+		}
+
+		/***********************************ESTILOS CONTENIDO POST*****************************/
+
+		.caja-ficha-post {
+			width: 100%;
+    		background-color: aliceblue;
+    		padding: 15px;
+
+		}
+
+		.titulo-tema-post {
+		    background-color: aqua;
+		    height: 50px;
+		    padding: 18px;
+		    font-size: 17px;
+		    font-weight: bold;
+		}
+
+		.caja-post {
+    	    padding: 15px;
+    		border-bottom: 1px solid black;
+    		height: 70px;
+    		font-size: 13px;
+		}
+
+		.post-info {
+		    margin-top: 5px;
+		    margin-bottom: 10px;
+		}
+
+		.botones-post {
+		    margin-bottom: 20px;
+		}
+
+	.caja-paginacion {
+			text-align: center;
+			font-size: 13px;
+		}
+
+	/************Tabla temas*******/
+	table.tabla-temas tbody tr {
+		height:  50px;
+	}
+
+
+
+	table.tabla-temas tbody td {
+		    height: 35px;
+		    border-bottom: 1px solid black;
+		}
